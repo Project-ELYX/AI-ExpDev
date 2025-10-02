@@ -1,0 +1,11 @@
+# Core runtime
+PySide6>=6.6
+httpx>=0.25
+PyYAML>=6.0
+
+# Memory / RAG support (optional but recommended for full functionality)
+sentence-transformers>=2.2
+chromadb>=0.4
+
+# Optional extras
+# torch          # Install manually for GPU-accelerated embeddings if available

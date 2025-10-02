@@ -37,12 +37,7 @@ Install the core runtime dependencies into a virtual environment:
 python -m venv .venv
 source .venv/bin/activate
 pip install -U pip
-pip install \
-  "PySide6>=6.6" \
-  "httpx>=0.25" \
-  "PyYAML>=6.0" \
-  "sentence-transformers>=2.2" \
-  "chromadb>=0.4"
+pip install -r requirements.txt
 ```
 
 Additional packages that unlock optional features:
